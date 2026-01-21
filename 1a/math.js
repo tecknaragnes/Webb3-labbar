@@ -16,3 +16,7 @@ export function divide(a, b) {
 
 export const Pi = 3.14159;
 export const secretSauce = 42;
+
+export function circleArea(radius) {
+    return Math.PI * radius * radius;
+}
