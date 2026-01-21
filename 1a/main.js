@@ -6,3 +6,4 @@ console.log(Math.multiply(23, 67));
 console.log(Math.divide(178, 8));
 console.log("I want pie! " + Math.Pi);
 console.log("The answer to life is " + Math.secretSauce);
+console.log("Hello my baby, hello my darling");

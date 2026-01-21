@@ -20,3 +20,5 @@ export const secretSauce = 42;
 export function circleArea(radius) {
     return Math.PI * radius * radius;
 }
+
+console.log("ok boomer");
