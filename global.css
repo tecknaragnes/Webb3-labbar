@@ -1,0 +1,27 @@
+/*----------generellt----------*/
+html {
+    --accentColor: #102512;
+    --accentColor2: #add8b0;
+    --BGcolor: #e4f8d6;
+    --softCurves: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--BGcolor);
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--accentColor);
+    font-family: Limelight, "Segoe UI", sans-serif;
+}
+
+
+header {
+    background-color: var(--accentColor2);
+    margin: 0;
+    padding: 0.3em;
+}
