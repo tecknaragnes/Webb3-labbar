@@ -69,10 +69,44 @@ section {
     font-size: 0.9rem;
 }
 
+section a {
+    color: #fff;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
 }
+
+
+/* ----------Main---------- */
+main {
+    margin: 1em;
+}
+
+main nav {
+    margin: 0;
+}
+
+fieldset {
+    margin: 0.5em 0;
+    background-color: var(--accentColor2);
+    border: 0.15em solid var(--accentColor);
+    border-radius: var(--softCurves);
+}
+
+.dark-theme {
+    background-color: var(--accentColor);
+    color: #fff;
+    border: 0.15em solid var(--accentColor);
+}
+
+.light-theme {
+    background-color: var(--BGcolor);
+    color: #000;
+    border: 0.15em solid var(--accentColor2);
+}
+
 
 /*----------footer----------*/
 footer {
