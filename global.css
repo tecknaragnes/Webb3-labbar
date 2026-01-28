@@ -107,6 +107,28 @@ fieldset {
     border: 0.15em solid var(--accentColor2);
 }
 
+div {
+    margin: 0.5em;
+    background-color: var(--accentColor2);
+    border: 0.15em solid var(--accentColor);
+    border-radius: var(--softCurves);
+    padding: 0 0 0 0.75em;
+}
+
+.productCard {
+    background-color: var(--accentColor2);
+    border: 0.15em solid var(--accentColor);
+}
+
+.productCard-outOfStock {
+    background-color: rgb(224, 148, 98);
+    border: 0.15em solid rgb(136, 43, 36);
+}
+
+#showDiv {
+    display: none;
+}
+
 
 /*----------footer----------*/
 footer {
