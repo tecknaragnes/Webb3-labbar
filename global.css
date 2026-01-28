@@ -60,7 +60,7 @@ nav li {
     padding: 0.4em;
 }
 
-li section {
+section {
     background-color: var(--accentColor3);
     border-radius: var(--softCurves);
     padding: 0.4em;

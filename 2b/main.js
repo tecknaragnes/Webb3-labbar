@@ -19,16 +19,39 @@ const counter = {
     value: 0,
 
     increase() {
-        return value++;
+        this.value++;
     },
 
     decrease() {
-        value--;
+        this.value--;
     },
 
     reset() {
-        value = 0;
+        this.value = 0;
     }
 };
 
 counter.increase();
+counter.increase();
+counter.decrease();
+counter.reset();
+
+
+const valueBox = document.getElementById("valueBox");
+const increaseBtn = document.getElementById("increase");
+const decreaseBtn = document.getElementById("decrease");
+const resetBtn = document.getElementById("reset");
+
+valueBox.textContent = counter.value;
+increaseBtn.addEventListener("click", function () {
+    counter.increase();
+    valueBox.textContent = counter.value;
+});
+decreaseBtn.addEventListener("click", function () {
+    counter.decrease();
+    valueBox.textContent = counter.value;
+});
+resetBtn.addEventListener("click", function () {
+    counter.reset();
+    valueBox.textContent = counter.value;
+});
