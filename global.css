@@ -128,9 +128,13 @@ main section:first-child {
     box-shadow: 0.2em 0.2em 10px gray;
 }
 
-.productCard {
+.productCard,
+.card,
+.user-card {
     background-color: var(--accentColor2);
     border: 0.15em solid var(--accentColor);
+    margin: 0.75em 0;
+    padding: 0.4em;
 }
 
 .productCard-outOfStock {
@@ -140,6 +144,15 @@ main section:first-child {
 
 #showDiv {
     display: none;
+}
+
+button {
+    margin: 0 0.4em;
+    background-color: var(--accentColor);
+    color: #fff;
+    border: 0.2em solid var(--accentColor);
+    border-radius: var(--softCurves);
+    box-shadow: 0.1em 0.1em 4px gray;
 }
 
 
