@@ -42,4 +42,4 @@ fetch("data.json")
 
 const response = await fetch("message.txt");
 const text = await response.text();
-document.querySelector("main").textContent = text;
+document.querySelector("main").append(text);
