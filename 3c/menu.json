@@ -1,0 +1,132 @@
+{
+    "restaurant": "Basta",
+    "desc": "En italiensk restaurang med festlig atmosfär",
+    "categories": [
+        {
+            "name": "Förrätter",
+            "dishes": [
+                {
+                    "name": "Vitlöksbröd",
+                    "price": 39,
+                    "desc": "Surdegsbröd med vitlökssmör och koriander.",
+                    "isVegetarian": true,
+                    "isVegan": false,
+                    "allergies": [
+                        "Fri från ägg",
+                        "Innehåller gluten, laktos, och mjölkprotein",
+                        "Kan bli fri från gluten, laktos, och mjölkprotein"
+                    ]
+                },
+                {
+                    "name": "Charkbricka",
+                    "price": 49,
+                    "desc": "Charkbricka med 3 sorters ostar från bland annat Frankrike.",
+                    "isVegetarian": false,
+                    "isVegan": false,
+                    "allergies": [
+                        "Fri från ägg",
+                        "Innehåller gluten, laktos, mjölkprotein",
+                        "Kan bli fri från gluten"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Huvudrätter",
+            "dishes": [
+                {
+                    "name": "Risotto",
+                    "price": 159,
+                    "desc": "Sparrisrisotto med jordgubbar och balsamico.",
+                    "isVegetarian": true,
+                    "isVegan": false,
+                    "allergies": [
+                        "Fri från ägg, gluten, laktos, och mjölkprotein"
+                    ]
+                },
+                {
+                    "name": "Pizza Blanco",
+                    "price": 149,
+                    "desc": "Surdegspizza med en bas av creme fraiche, toppad med valnötter, päron, honung, och ruccola.",
+                    "isVegetarian": true,
+                    "isVegan": false,
+                    "allergies": [
+                        "Fri från ägg",
+                        "Innehåller gluten, laktos, och mjölkprotein",
+                        "Kan bli fri från gluten, laktos, och mjölkprotein"
+                    ]
+                },
+                {
+                    "name": "Pestopasta",
+                    "price": 149,
+                    "desc": "Pasta med pestokräm, toppad med burrata.",
+                    "isVegetarian": true,
+                    "isVegan": false,
+                    "allergies": [
+                        "Innehåller ägg, gluten, laktos, och mjölkprotein",
+                        "Kan bli fri från gluten, laktos, och mjölkprotein"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Efterrätter",
+            "dishes": [
+                {
+                    "name": "Gelato",
+                    "price": 59,
+                    "desc": "Glass med kolakex och maräng.",
+                    "isVegetarian": true,
+                    "isVegan": false,
+                    "allergies": [
+                        "Fri från ägg, och gluten",
+                        "Innehåller laktos, och mjölkprotein",
+                        "Kan bli fri från laktos"
+                    ]
+                },
+                {
+                    "name": "Crème Brûlée",
+                    "price": 69,
+                    "desc": "Crème brûlée som serveras med bärkompott.",
+                    "isVegetarian": true,
+                    "isVegan": false,
+                    "allergies": [
+                        "Fri från gluten",
+                        "Innehåller ägg, laktos, och mjölkprotein",
+                        "Kan bli fri från laktos"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Drinkar",
+            "drinks": [
+                {
+                    "name": "Amaretto Sour",
+                    "price": 59,
+                    "desc": "Nötig och aningen syrlig drink.",
+                    "isVegan": false,
+                    "allergies": [
+                        "Innehåller ägg"
+                    ],
+                    "alcoholic": true
+                },
+                {
+                    "name": "Villa Brichot",
+                    "price": 89,
+                    "desc": "Vitt vin från Frankrike.",
+                    "alcoholic": true
+                },
+                {
+                    "name": "Äppelcider",
+                    "price": 69,
+                    "desc": "Färskpressad äppelcider från Kiviks.",
+                    "allergies": [
+                        "Innehåller äpple"
+                    ],
+                    "alcoholic": false
+                }
+            ]
+        }
+    ]
+}
