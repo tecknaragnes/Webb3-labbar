@@ -25,6 +25,10 @@ h3 {
     margin: 0.5em
 }
 
+button {
+    cursor: pointer;
+}
+
 
 /*----------header----------*/
 header {
