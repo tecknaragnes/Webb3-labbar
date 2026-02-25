@@ -198,8 +198,37 @@ export const labbar = [
             desc: "I lab 1b lärde vi oss grunderna i Git — att stagea filer och skapa commits. I lab 1c lärde vi oss att ångra ostageade ändringar och att arbeta med branches. Men vad gör man om man redan har committat något man vill ångra? Kanske skapade du en commit med en bugg, eller så vill du gå tillbaka till ett tidigare tillstånd i projektet. I denna laboration utforskar vi två kraftfulla verktyg för att hantera commit-historiken: git revert och git reset.",
             week: 5,
             complete: false,
-            link: "5d/index.html",
+            link: "index.html",
             category: ["git", "revert", "reset", "github"]
+        }
+    ],
+    [
+        {
+            id: "labb6a",
+            title: "HTML5-formulär",
+            desc: "Formulär är grundläggande för interaktivitet på webben — de låter användaren skicka data. HTML5 ger oss kraftfulla verktyg för att bygga formulär med inbyggd validering, utan JavaScript. I denna laboration repeterar vi grundläggande formulär från Webbteknik 1 samt fördjupar våra kunskaper lite.",
+            week: 6,
+            complete: false,
+            link: "6a/index.html",
+            category: ["form", "input", "validation"]
+        },
+        {
+            id: "labb6b",
+            title: "Interaktiva formulärfält",
+            desc: "I labb 6a använde vi formulär för att samla och validera data. Men formulärelement kan också användas för att bygga interaktiva gränssnitt — helt utan att skicka iväg ett formulär. Tänk på inställningspaneler, filterfunktioner eller visuella verktyg där användaren direkt ser resultatet av sina val. I denna laboration bygger vi just sådana interaktiva kontroller med JavaScript.",
+            week: 6,
+            complete: false,
+            link: "6b/index.html",
+            category: ["form", "validatio", "input"]
+        },
+        {
+            id: "labb6c",
+            title: "Felhantering",
+            desc: "I lab 4c använde vi console.log för att signalera att något gick fel — till exempel om ett ogiltigt pris skickades till en setter. Problemen med det är flera. Dels att koden som anropade settern aldrig fick veta att det gick fel, programmet fortsatte köra som om ingenting hänt. Men även att användaren aldrig får någon feedback. I denna labb lär vi oss ett bättre sätt: att kasta fel med throw och fånga dem med try/catch, så att vi kan reagera på problem och visa tydliga felmeddelanden för användaren.",
+            week: 6,
+            complete: false,
+            link: "6c/index.html",
+            category: ["throw", "catch", "error", "try"]
         }
     ]
 ]
