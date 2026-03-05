@@ -1,0 +1,38 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    font-weight: bold;
+    font-family: Limelight, "Segoe UI", sans-serif;
+    font-size: larger;
+}
+
+input {
+    margin-bottom: 0.7em;
+    width: 200px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+button {
+    width: fit-content;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid dodgerblue;
+    outline-offset: 1px;
+}
+
+label:has(+ input:required)::after,
+label:has(+ select:required)::after {
+    content: " *";
+    color: rgb(196, 7, 7);
+}

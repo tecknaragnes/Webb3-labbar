@@ -18,6 +18,82 @@
     <section>
         <p><a href="../index.html">Till landningssidan</a></p>
     </section>
+
+    <form>
+        <fieldset>
+            <legend>Kontaktinformation</legend>
+
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name" required minlength="2" placeholder="ex. Anna Andersson">
+
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefonnummer</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="web">Webbadress</label>
+            <input type="url" id="web" name="web">
+
+            <label for="bday">Födelsedag</label>
+            <input type="date" id="bday" name="bday">
+
+            <label for="ärende">Ärende</label>
+            <select id="ärende" name="ärende" required>
+                <option value="">Välj ärende...</option>
+                <option value="question">Fråga</option>
+                <option value="feedback">Feedback</option>
+            </select>
+
+            <label for="msg">Meddelande</label>
+            <textarea id="msg" name="msg" rows="4">Skriv här</textarea>
+
+            <p>Hur vill du bli kontaktad?</p>
+            <input type="radio" id="contact-email" name="contact" value="contact-email">
+            <label for="contact-email">E-post</label>
+            <input type="radio" id="contact-phone" name="contact" value="contact-phone">
+            <label for="contact-phone">Telefon</label>
+
+            <input type="checkbox" id="terms" name="terms" value="terms" required>
+            <label for="terms">Jag godkänner villkoren</label>
+
+            <button type="submit">Skicka</button>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Olika input-fält</legend>
+
+            <label for="text">Vanlig text</label>
+            <input type="text" id="text" name="text">
+
+            <label for="mail">E-post</label>
+            <input type="email" id="mail" name="mail">
+
+            <label for="number">Siffor</label>
+            <input type="number" id="number" name="number">
+
+            <label for="mobile">Telefonnummer</label>
+            <input type="tel" id="mobile" name="mobile">
+
+            <label for="website">Webbadress</label>
+            <input type="url" id="website" name="website">
+
+            <label for="date">Datum</label>
+            <input type="date" id="date" name="date">
+
+            <label for="time">Tid</label>
+            <input type="time" id="time" name="time">
+
+            <label for="color">Färg</label>
+            <input type="color" id="color" name="color">
+
+            <label for="range">Reglage</label>
+            <input type="range" id="range" name="range">
+        </fieldset>
+
+    </form>
 </body>
 
 </html>
